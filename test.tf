@@ -19,9 +19,9 @@ provider "aws" {
 resource "aws_instance" "myec2" {
    ami = "ami-09988af04120b3591"
    instance_type = "t2.micro"
-   key_name = "Ansible"
+   key_name = "MGJenkins"
    tags = {
-      Name = "Example"
+      Name = "mgTFInstance"
    }
 
 }
