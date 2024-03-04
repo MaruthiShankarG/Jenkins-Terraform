@@ -21,7 +21,7 @@ resource "aws_instance" "myec2" {
    instance_type = "t2.micro"
    key_name = "MGJenkins"
    tags = {
-      Name = "mgTFInstance"
+      Name = "mgTFInstance1"
    }
 
 }
